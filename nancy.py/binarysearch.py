@@ -8,6 +8,7 @@ def binary_tree(a,key,start,end):
             return binary_tree(a,key,mid+1,end)
         else:
             return mid
+            # nancy
     print(key,"key could not found")
     return -1
 print(binary_tree(a,4,0,len(a)-1))
